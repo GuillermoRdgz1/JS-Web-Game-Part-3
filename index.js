@@ -18,8 +18,8 @@ function move(image){
     }
 }
 
-let greenCharacter = newImage(assets/green-character.gif)
-move(greenCharacter) to (100, 250)
+let greenCharacter = newImage('assets/green-character.gif')
+move(greenCharacter, 100, 250)
 
 newImage('assets/green-character.gif', 100, 250)
 newImage('assets/tree.png', 200, 450)
